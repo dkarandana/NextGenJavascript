@@ -1,6 +1,6 @@
 {
   "name": "nextgenjavascript",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "\"Next Generation [es6-es7] Javascript with Webpack bundler\"",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,8 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "browser-sync-webpack-plugin": "^2.2.2"
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack-entry-list": "^1.0.1"
   }
 }
