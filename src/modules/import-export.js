@@ -16,9 +16,12 @@ console.log( 'moduleBData:', moduleBData );
 
 
 import { cube, foo, graph } from './moduleC';
+import * as bundled from './moduleC';
 
 console.log( 'cube(3):', cube(3) );
 console.log( 'graph.draw():', graph.draw() );
+
+console.log( bundled.cube(3) );
 
 
 
