@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.info('let-const.js');\n\n{\n    console.log(\"Scope A\",a); //hoisting effected\n    // console.log(b) // ReferenceError: b is not defined\n\n    {\n        var a = 100;\n        let b = 200;\n        const c = 300;\n        {\n            console.log(\"Scope B\",a,b);\n            //c = 400; // TypeError: invalid assignment to const `c'\n            {\n                console.log(\"Scope C\",b ,c);\n            }\n        }\n    }\n}\n\n//# sourceURL=webpack:///./src/modules/let-const.js?");
+eval("console.info('let-const.js');\n\n{\n    console.log(\"Scope A\",a); //hoisting effected | Declaration hoisted\n    // console.log(b) // ReferenceError: b is not defined\n\n    {\n        var a = 100;\n        let b = 200;\n        const c = 300;\n        {\n            console.log(\"Scope B\",a,b);\n            //c = 400; // TypeError: invalid assignment to const `c'\n            {\n                console.log(\"Scope C\",b ,c);\n            }\n        }\n    }\n}\n\n//# sourceURL=webpack:///./src/modules/let-const.js?");
 
 /***/ })
 

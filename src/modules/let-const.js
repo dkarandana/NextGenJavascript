@@ -1,7 +1,7 @@
 console.info('let-const.js');
 
 {
-    console.log("Scope A",a); //hoisting effected
+    console.log("Scope A",a); //hoisting effected | Declaration hoisted
     // console.log(b) // ReferenceError: b is not defined
 
     {
