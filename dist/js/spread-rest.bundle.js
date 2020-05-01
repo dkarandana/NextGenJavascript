@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.info('spread-rest.js');\n\n/* Spreading */\nconst oldArray = [1,2,3];\nconst newArray = [...oldArray,4,5];\n\nconsole.log( newArray );\n\nconst oldObject = { \n    name: 'Dhananjaya'\n}; \n\nconst newObject = {\n    ...oldObject,\n    twitter: 'dkarandana'\n};\n\nconsole.log( newObject );\n\n//# sourceURL=webpack:///./src/modules/spread-rest.js?");
+eval("console.info('spread-rest.js');\n\n/* Spreading */\nconst oldArray = [1,2,3];\nconst newArray = [...oldArray,4,5];\n\nconsole.log( newArray );\n\nconst oldObject = { \n    name: 'Dhananjaya'\n}; \n\nconst newObject = {\n    ...oldObject,\n    twitter: 'dkarandana'\n};\n\nconsole.log( newObject );\n\nconsole.info('/****** Rest Parameter ***********/')\n/* Rest Parameter */\n\nfunction myFun(a, b, ...manyMoreArgs) {\n    console.log(\"a\", a)\n    console.log(\"b\", b)\n    console.log(\"manyMoreArgs\", manyMoreArgs)\n}\n  \nmyFun(\"one\", \"two\", \"three\", \"four\", \"five\", \"six\")\n\n\n\n//# sourceURL=webpack:///./src/modules/spread-rest.js?");
 
 /***/ })
 
