@@ -1,4 +1,4 @@
-#### NextGenJavascript
+# NextGenJavascript
 
 ## Installation
 
