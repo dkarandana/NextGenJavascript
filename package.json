@@ -1,6 +1,6 @@
 {
   "name": "nextgenjavascript",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "\"Next Generation [es6-es7] Javascript with Webpack bundler\"",
   "main": "index.js",
   "scripts": {
